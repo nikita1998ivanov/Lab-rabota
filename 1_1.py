@@ -1,0 +1,6 @@
+a = int(input('a = '))
+b = int(input('b = '))
+c = int(input('c = '))
+k = int(input('k = '))
+result = abs( ((a*a)/(b*b) + c*c*a*a) / (a+b+c*(k-pow(a/b,3))) + c + ((k/b)-(k/a))*c)
+print('result = ',result)
